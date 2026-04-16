@@ -1,4 +1,15 @@
-*.log
-Thumbs.db
-.DS_Store
+﻿# Flutter / Dart
+.dart_tool/
+.buildlog
+.packages
+pubspec.lock
+build/
 
+# IDE
+.idea/
+*.iml
+
+# Platform build outputs
+android/.gradle/
+ios/Pods/
+windows/flutter/ephemeral/
